@@ -4,18 +4,32 @@
 
 
 
-@@media query {
-
+@@media print {
+        .screen-only{
+          display:none;
+        }
 }
 
 #top {;}
 #middle {;}
 #footer {;}
+#group
+.drinks {;}
 
-.green {;}
+body {
+  width:50%;
 
-p {background-color: blue;}
+}
 ul {color: red;}
 li {font-weight:bold;}
 a {text-align: center;}
-nav {border: 1px solid green;}
+nav {
+  border: 1px solid green;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+nav a {
+  width:50px;
+  margin: 30px;
+}
