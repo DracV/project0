@@ -1,8 +1,17 @@
 
 
 
+@@media (min-width: 500px) {
+        h1::before {
+            content: "Welcome to My Web Page";
+        }
+}
 
-
+@@media (max-width: 499px) {
+      h1::before {
+        content: "Welcome!";
+      }
+}
 
 @@media print {
         .screen-only{
@@ -10,16 +19,13 @@
         }
 }
 
+
 #top {;}
 #middle {;}
 #footer {;}
 #group
 .drinks {;}
 
-body {
-  width:50%;
-
-}
 ul {color: red;}
 li {font-weight:bold;}
 a {text-align: center;}

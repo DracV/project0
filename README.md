@@ -11,14 +11,4 @@ Harvard CS50W project0
 * readme file include a short writeup describing your project
 
 
-
-
-Just a website for my CS50W project0
-X Must contain at least 4 different .html pages all linking to each other
-X Must include at least one list, one table , one image
-X Must include at least one stylesheet with 5 CSS properties, 5 different types of selectors
-X Must use #id at least once and .class at least once.
-X Must contain at least one mobile-responsive @media query
-* Must use Bootstrap 4, using at least one bootstrap component, and 2 bootstrap columns for layout purposes using grid model
 * Stylesheets must use at lease one SCSS variable, one example of SCSS nesting and one use of SCSS inheritance
-X readme file include a short writeup describing your project

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
@@ -22,10 +22,33 @@
     </style>
 
     <body>
-        <nav>
-          <a href="index.html">Home</a><a href="page1.html">Page1</a><a href="page2.html">Page2</a><a href="page3.html">Page3</a>
-        </nav>
-        <h1 class="screen-only">Welcome to the Online version of my Projec0 site</h1>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page1.html">Page1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page2.html">Page2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="page3.html">Page3</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+          <h1 class="screen-only">Welcome to the Online version of my Projec0 site</h1>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-3">
       <table id="group">
         <tr>
           <th>First Name</th>
@@ -45,9 +68,40 @@
       <p>My unordered list</p>
 
         <img src="1.jpg" alt="">
+      </div>
+    </div>
 
 
+        <div class="col-lg-6 col-sm-3">
+  <table id="group">
+    <tr>
+      <th>First Name</th>
+      <th>Second Name</th>
+      <th>Year</th>
+    </tr>
+    <tr>
+      <td>Frank</td>
+    </tr>
+  </table>
 
+  <ul class="drinks">
+    <li>coffee</li>
+    <li>pepsi</li>
+    <li>water</li>
+  </ul>
+  <p>My unordered list</p>
+
+    <img src="1.jpg" alt="">
+  </div>
+
+  </div>
+        <div class="row">
+          <div class="col-12">
+        <p>Just some text to make use of the row class lol</p>
+      </nav>
+          </div>
+        </div>
+      </div>
     </body>
 
 
