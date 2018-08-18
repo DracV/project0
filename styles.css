@@ -19,21 +19,22 @@
         }
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
 
-#top {;}
-#middle {;}
-#footer {;}
-#group
-.drinks {;}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 
 ul {color: red;}
 li {font-weight:bold;}
-
-nav {
-  border: 1px solid green;
-  margin-bottom: 50px;
-}
-
-table, td, th {
-  border: 1px solid green;
-}
