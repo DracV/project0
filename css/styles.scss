@@ -1,0 +1,40 @@
+
+
+$color: green;
+$color2:#e0e8e8;
+
+
+
+@media print {
+        .screen-only{
+          display:none;
+        }
+}
+
+#main {
+  text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: $color2;
+    }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.green {color: $color;}
+li {font-weight:bold;}
