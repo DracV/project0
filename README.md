@@ -1,5 +1,5 @@
 # project0
-Harvard CS50W project0
+<h2>Harvard CS50W project0</h2>
 *requirements*
 * Must contain at least 4 different .html pages all linking to each other
 * Must include at least one list, one table , one image
