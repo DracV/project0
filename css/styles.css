@@ -1,29 +1,28 @@
 
 
 
-
-
-@media print {
+@@media print {
         .screen-only{
           display:none;
         }
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
 
-#welcome {text-align: center;}
-#main {text-align: center;}
-#middle {;}
-#footer {;}
-#group
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
 
 ul {color: red;}
 li {font-weight:bold;}
-
-nav {
-  margin-bottom: 10px;
-}
-
-table, td, th {
-  border: 1px solid green;
-}
