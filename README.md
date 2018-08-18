@@ -1,6 +1,6 @@
 # project0
 <h2>Harvard CS50W project0</h2>
-<h3>requirements</h3>
+<h3>Requirements</h3>
 <ol>
 <li> Must contain at least 4 different .html pages all linking to each other</li>
 <li> Must include at least one stylesheet with 5 CSS properties, 5 different types of selectors</li>
@@ -10,7 +10,7 @@
 <li> Stylesheets must use at lease one SCSS variable, one example of SCSS nesting and one use of SCSS inheritance</li>
 <li> readme file include a short writeup describing your project</li>
 </ol>
-<h3>todo</h3>
+<h3>Todo</h3>
 * Stylesheets must use at lease one SCSS variable, one example of SCSS nesting and one use of SCSS inheritance
 
 <h2>Android VS Iphone</h2>

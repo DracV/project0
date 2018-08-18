@@ -1,0 +1,39 @@
+
+
+
+@@media (min-width: 500px) {
+        h1::before {
+            content: "Welcome to My Web Page";
+        }
+}
+
+@@media (max-width: 499px) {
+      h1::before {
+        content: "Welcome!";
+      }
+}
+
+@@media print {
+        .screen-only{
+          display:none;
+        }
+}
+
+
+#top {;}
+#middle {;}
+#footer {;}
+#group
+.drinks {;}
+
+ul {color: red;}
+li {font-weight:bold;}
+
+nav {
+  border: 1px solid green;
+  margin-bottom: 50px;
+}
+
+table, td, th {
+  border: 1px solid green;
+}
