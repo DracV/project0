@@ -1,15 +1,21 @@
 
 
 
-#top {};
-#middle {};
-#footer {};
 
-.green {};
 
-p {background-color: blue};
-ul {color: red};
-li {font-weight:bold};
-a {text-align: center};
-span {border: 1px solid green};
-    
+
+@@media query {
+
+}
+
+#top {;}
+#middle {;}
+#footer {;}
+
+.green {;}
+
+p {background-color: blue;}
+ul {color: red;}
+li {font-weight:bold;}
+a {text-align: center;}
+nav {border: 1px solid green;}

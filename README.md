@@ -8,4 +8,9 @@ Harvard CS50W project0
 * Must contain at least one mobile-responsive @media query
 * Must use Bootstrap 4, using at least one bootstrap component, and 2 bootstrap columns for layout purposes using grid model
 * Stylesheets must use at lease one SCSS variable, one example of SCSS nesting and one use of SCSS inheritance
-* readme file include a short writeup describing your project 
+* readme file include a short writeup describing your project
+
+
+
+
+Just a website for my CS50W project0
