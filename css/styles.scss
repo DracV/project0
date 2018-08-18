@@ -1,9 +1,17 @@
 
 
+
+%upper-case {
+    text-transform: uppercase;
+}
+
 $color: green;
 $color2:#e0e8e8;
 
-
+.green {
+    @extend %upper-case;
+    color: $color;
+  }
 
 @media print {
         .screen-only{
@@ -36,5 +44,5 @@ table {
   font-weight: bold;
 }
 
-.green {color: $color;}
+
 li {font-weight:bold;}

@@ -1,3 +1,11 @@
+.green {
+  text-transform: uppercase;
+}
+
+.green {
+  color: green;
+}
+
 @media print {
   .screen-only {
     display: none;
@@ -24,10 +32,6 @@ table tr:nth-child(even) {
 
 .bold {
   font-weight: bold;
-}
-
-.green {
-  color: green;
 }
 
 li {
