@@ -7,10 +7,15 @@
         }
 }
 
+#main {
+  text-align: center;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    margin: auto;
 }
 
 td, th {
@@ -20,9 +25,12 @@ td, th {
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #e0e8e8;
 }
 
+.bold {
+  font-weight: bold;
+}
 
 ul {color: red;}
 li {font-weight:bold;}
