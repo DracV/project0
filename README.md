@@ -10,8 +10,6 @@
 <li> Stylesheets must use at lease one SCSS variable, one example of SCSS nesting and one use of SCSS inheritance</li>
 <li> readme file include a short writeup describing your project</li>
 </ol>
-<h3>Todo</h3>
-* Stylesheets must use at lease one SCSS variable, one example of SCSS nesting and one use of SCSS inheritance
 
 <h2>Android VS Iphone</h2>
 <p>My personal biased opinions on Android vs Iphone</p>
