@@ -10,5 +10,8 @@ Harvard CS50W project0
 * Stylesheets must use at lease one SCSS variable, one example of SCSS nesting and one use of SCSS inheritance
 * readme file include a short writeup describing your project
 
-
+<h3>todo</h3>
 * Stylesheets must use at lease one SCSS variable, one example of SCSS nesting and one use of SCSS inheritance
+
+<h2>Android VS Iphone</h2>
+<p>My personal biased opinions on Android vs Iphone</p>
